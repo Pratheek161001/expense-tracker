@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <br>
+            <h5><label for="chooseexpensenumber" class="form-label">Expense amount</label></h1>
+            <input type="number" id="chooseexpensenumber" class="form-control" placeholder="Type a number" required>
+            <br>
+            <h5><label for="Discription" class="form-label">Discription</label></h5>
+            <input type="text" id="choosdiscription" placeholder="Type here" class="form-control" required>
+            <br>
+            <h5><label for="choosecategory" class="form-label">Catogory</label></h5>
+            <input type="text" id="choosecategory" placeholder="Type here" class="form-control" required>
+            <br>
+            <button class="form-control" id="button" ><h6><b>Submit Expense</b></h6></button>
+            <br>
+            <ul id="datalist">
+
+            </ul>
+        </div>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>
